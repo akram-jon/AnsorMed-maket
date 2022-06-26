@@ -19,6 +19,10 @@ body {
   outline-offset: 3px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 
 /* CONTAINER */
 .container {
@@ -160,7 +164,16 @@ body {
   opacity: 1;
 }
 
+.main-link-outline {
+  border-color: #fff;
+  background-color: transparent;
+}
 
+.main-link-outline:hover {
+  background-color: #DE2E54;
+  color: #fff;
+  border-color: transparent;
+}
 
 /* HERO */
 .site-hero {
@@ -187,7 +200,7 @@ body {
 }
 
 .hero-text {
-  width: 440px;
+  width: 400px;
   margin-top: 0;
   margin-bottom: 36px;
   font-size: 18px;
@@ -264,77 +277,30 @@ body {
 
 
 /* CTA */
-.CTA {
- background-color: #0EB4C1;
- padding: 64px 0;
- color: #fff;
+.cta {
+  background-color: #0EB4C1;
+  color: #fff;
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
-.CTA-content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.CTA-heading {
-  font-family: "Open Sans Condensed","Arial",sans-serif;
-  font-size: 36px;
-  line-height: 43px;
-  margin-top: 0;
+.cta-heading {
+  margin: 0;
   margin-bottom: 40px;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
 }
 
-.CTA-buttons {
+.cta-links {
   display: flex;
-  align-items: center;
   justify-content: center;
-
+  align-items: center;
 }
 
-.CTA-call-box {
+.cta-links-item:not(:last-child) {
   margin-right: 40px;
-  color: #fff;
-  padding: 12px 24px;
-  border: 2px solid #FFFFFF;
-  border-radius: 8px;
-  font-family: "Open Sans Condensed", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 18px;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.CTA-call-box:hover {
-  background-color: #DE2E54;
-  color: #fff;
-  border: 2px solid #DE2E54;
-}
-
-.CTA-call-box:active {
-  opacity: 0.6;
-}
-
-.CTA-message-box {
-  padding: 12px 24px;
-  text-decoration: none;
-  color: #fff;
-  border: 2px solid #FFFFFF;
-  border-radius: 8px;
-  font-family: "Open Sans Condensed", "Arial", sans-serif;
-  font-size: 15px;
-  line-height: 18px;
-  text-transform: uppercase;
-}
-
-.CTA-message-box:hover {
-  background-color: #DE2E54;
-  color: #fff;
-  border: 2px solid #DE2E54;
-}
-
-.CTA-message-box:active {
-  opacity: 0.6;
 }
 
 
