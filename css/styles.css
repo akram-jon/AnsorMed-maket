@@ -176,43 +176,42 @@ html {
 }
 
 /* HERO */
-.site-hero {
+.hero {
   background-color: #0EB4C1;
   color: #fff;
 }
 
-.site-hero-container {
+.hero-container {
   display: flex;
   justify-content: space-between;
 }
 
 .hero-content {
   width: 500px;
-  padding: 120px 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .hero-heading {
   margin-top: 0;
   margin-bottom: 16px;
-  font-family: "Open Sans Condensed", "Arial", sans-serif;
+  font-family: "Open Sans Condensed", "Open Sans", "Arial", sans-serif;
   font-size: 36px;
   line-height: 1.2;
 }
 
 .hero-text {
-  width: 400px;
+  width: 440px;
   margin-top: 0;
-  margin-bottom: 36px;
-  font-size: 18px;
-  line-height: 27px;
+  margin-bottom: 46px;
 }
 
 .hero-img {
-  align-self: flex-end; /* matn pastga taqalib turadi. */
+  align-self: flex-end;
 }
 
 
-/* Services */
+/* SERVICES */
 .index-services {
   background-color: #fff;
   padding: 120px 0;
